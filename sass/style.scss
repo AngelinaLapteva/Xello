@@ -1,0 +1,177 @@
+
+@import "compass";
+@import "bootstrap";
+ 
+$light-blue: #4aaedf;
+$greenC:#81ca00;
+$bg-gray:#f1f1f1;
+$border-gray:#cccccc;
+$pink-alert:#f72c71;
+$header-one-font:#484848;
+$regular-text:#747474;
+$disable-text:#b6b6b6;
+$bodyColor:#fafafa;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+body {
+	font-size:14px;
+	background-color:$bodyColor;
+	div.arrow{
+		left:90% !important;
+		bottom:-10px !important;
+	}
+	h1{
+		margin-top:25px;
+		color:$header-one-font;
+		font-size:24px;
+		.badge{
+			background-color:$pink-alert;
+			@include border-radius(50%);
+			font-size: 10px;
+			padding: 6px 5px 6px 5px;
+		}
+		.creditleft{
+			font-size: 12px;
+			color: $disable-text;
+			margin-left: 10px;
+		}
+	}
+	.progress{
+		margin-top: 10%;
+	}
+	.progress-bar{
+		background-color: $greenC;
+		float: right;
+	}
+	
+	h2{
+		text-transform: uppercase;
+		span{
+			text-transform: lowercase;
+		}
+	}
+	input[type="checkbox"]{
+		font-size: 40px;
+	}
+	p{
+		margin-bottom: 0;
+	}
+	.navbar-light {
+		background-color: $bg-gray;
+		border:solid $border-gray 1px;
+		@include border-radius(5px);
+		.navbar-collapse{
+			.navbar-nav {
+				.nav-link{font-size: 14px;padding-top:4px;padding-bottom:4px;}	
+				#navbarDropdown{
+					background-color:white;
+					border:solid $border-gray 1px;
+					text-align: left;
+					
+					@include border-radius(5px);
+					.caret{
+						margin-left: 150px;
+					}
+				}
+			}
+		}
+	}
+	.row{
+		margin-left: auto;
+		margin-right: auto;
+		.selectedColumn{
+			border: solid $border-gray 1px;
+			margin-bottom: 2%;
+			@include border-radius(5px);
+			padding:0;
+			.selectedTitle{
+			padding:10px;
+			background-color:$bg-gray;
+			}
+			.selectedBottom{
+				background-color:$light-blue;
+				padding:10px;
+				display: flex;
+				flex-direction: row;
+				text-align:center;
+				justify-content: center;
+			}
+		}
+		.notSelectedTitle{
+			padding:10px;
+		}
+		.list-group{
+			padding:10px;
+			.list-group-item{
+				margin-bottom: 10px;
+				height: 50px;
+
+				@include border-radius(5px);
+				p{
+					.fadedText{
+						color: $disable-text;
+					}
+				}
+			}
+			.availableSlot{
+				text-align: left;
+				font-size: 1.2em;
+				color: $disable-text;
+				border: dashed $border-gray 1px;
+				line-height: 35px;
+			}
+			.pickedClass{
+				border-left: solid $greenC 8px;
+				.badge{
+					background-color:$pink-alert;
+					@extend .badge;
+					border:solid #852745 1px;
+					padding: 1px 5px 1px 5px;
+					float: right;
+				}
+			}
+			.addBlue{
+				padding:0;
+				.blueAddBtn{
+				margin-right: 10px;
+				background-color:$light-blue;
+				color: white;
+				font-size: 25px;
+				border-radius: 5px 0px 0px 5px;
+				padding:5px;
+				width: 15%;
+				height: 49px;
+				width: 40px;
+				float: left;
+				text-align:center;
+				}
+			}
+			.something{
+				padding:10px;
+				.addSubject{
+					color:$light-blue;
+				}
+			}
+		}		
+	}
+	.popover{
+		@extend .pickedClass;
+		border-left: solid $pink-alert 5px;
+
+	}
+	.popover-header {
+      background-color: white;
+      color: $regular-text;
+      padding: 10px;
+	}
+	.popover-body{
+		color:$light-blue;
+	}
+	
+}
