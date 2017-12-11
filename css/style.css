@@ -8211,13 +8211,13 @@ button.close {
   }
 }
 
-/* line 22, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 26, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body {
   font-size: 14px;
   background-color: #fafafa;
 }
 
-/* line 25, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 29, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body h1 {
   margin-top: 10px;
   color: #484848;
@@ -8225,7 +8225,7 @@ body h1 {
   vertical-align: text-top;
 }
 
-/* line 30, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 34, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body h1 .badge, body h1 .row .list-group .pickedClass .badge, body .row .list-group .pickedClass h1 .badge {
   background-color: #f72c71;
   -webkit-border-radius: 50%;
@@ -8237,7 +8237,7 @@ body h1 .badge, body h1 .row .list-group .pickedClass .badge, body .row .list-gr
   vertical-align: 5px;
 }
 
-/* line 37, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 41, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body h1 .creditleft {
   font-size: 12px;
   color: #b6b6b6;
@@ -8245,66 +8245,76 @@ body h1 .creditleft {
   vertical-align: 5px;
 }
 
-/* line 45, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 49, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .amountFree {
   line-height: 8px;
 }
 
-/* line 47, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 51, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .amountFree .greenBold {
   color: #81ca00;
   font-weight: bold;
 }
 
-/* line 52, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 56, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .forProgerssBar {
   margin-top: 20px;
 }
 
-/* line 55, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+@media screen and (max-width: 575px) {
+  /* line 60, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+  body .forProgerssBar {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  /* line 63, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+  body .forProgerssBar .col-sm-9 {
+    padding-left: 0;
+  }
+}
+
+/* line 68, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .progress-bar {
   background-color: #81ca00;
   float: right;
 }
 
-/* line 60, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 73, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body h2 {
   text-transform: uppercase;
 }
 
-/* line 62, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 75, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body h2 span {
   text-transform: lowercase;
 }
 
-/* line 66, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 79, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body input[type="checkbox"] {
   font-size: 40px;
 }
 
-/* line 69, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 82, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body p {
   margin-bottom: 0;
 }
 
-/* line 72, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 85, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .navbar-light {
-  background-color: #f1f1f1;
-  border: solid #cccccc 1px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
 }
 
-/* line 78, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 89, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .navbar-light .navbar-collapse .navbar-nav .nav-link {
   font-size: 14px;
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-/* line 79, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 90, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .navbar-light .navbar-collapse .navbar-nav #navbarDropdown {
   background-color: white;
   border: solid #cccccc 1px;
@@ -8316,26 +8326,26 @@ body .navbar-light .navbar-collapse .navbar-nav #navbarDropdown {
   border-radius: 5px;
 }
 
-/* line 85, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 96, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .navbar-light .navbar-collapse .navbar-nav #navbarDropdown .caret {
   float: right;
   margin-top: 10px;
   margin-right: 5px;
 }
 
-/* line 91, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 102, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .navbar-light .navbar-collapse .navbar-nav .filters {
   border-left: solid #cccccc 1px;
   margin-left: 15px;
   vertical-align: top;
 }
 
-/* line 95, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 106, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .navbar-light .navbar-collapse .navbar-nav .filters label {
   margin-bottom: 0;
 }
 
-/* line 98, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 109, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .navbar-light .navbar-collapse .navbar-nav .filters .labelCredits {
   vertical-align: bottom !important;
   margin-right: 10px;
@@ -8343,24 +8353,24 @@ body .navbar-light .navbar-collapse .navbar-nav .filters .labelCredits {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 106, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+  /* line 117, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
   body .navbar-light .navbar-collapse .navbar-nav .filters {
     border: none;
     margin-left: 0;
   }
-  /* line 109, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+  /* line 120, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
   body .navbar-light .navbar-collapse .navbar-nav .filters .labelCredits {
     margin-left: 0;
   }
 }
 
-/* line 117, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 128, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 120, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 131, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .selectedColumn {
   border: solid #cccccc 1px;
   margin-bottom: 2%;
@@ -8371,13 +8381,13 @@ body .row .selectedColumn {
   padding: 0;
 }
 
-/* line 125, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 136, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .selectedColumn .selectedTitle {
   padding: 10px;
   background-color: #f1f1f1;
 }
 
-/* line 129, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 140, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .selectedColumn .selectedBottom {
   background-color: #4aaedf;
   padding: 10px;
@@ -8387,7 +8397,7 @@ body .row .selectedColumn .selectedBottom {
   justify-content: center;
 }
 
-/* line 136, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 147, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .selectedColumn .selectedBottom .blueButton {
   padding: 2px;
   border: solid #007bff 1px;
@@ -8397,17 +8407,17 @@ body .row .selectedColumn .selectedBottom .blueButton {
   border-radius: 5px;
 }
 
-/* line 143, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 154, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .notSelectedTitle {
-  padding: 10px;
+  padding: 11px 10px 10px 10px;
 }
 
-/* line 146, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 157, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group {
   padding: 10px;
 }
 
-/* line 148, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 159, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group .list-group-item {
   margin-bottom: 10px;
   height: 50px;
@@ -8417,17 +8427,17 @@ body .row .list-group .list-group-item {
   border-radius: 5px;
 }
 
-/* line 154, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 164, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group .list-group-item p .fadedText {
   color: #b6b6b6;
 }
 
-/* line 156, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 166, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group .list-group-item p .fadedText span {
   float: right;
 }
 
-/* line 162, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 172, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group .availableSlot {
   text-align: left;
   font-size: 1.2em;
@@ -8436,41 +8446,43 @@ body .row .list-group .availableSlot {
   line-height: 35px;
 }
 
-/* line 169, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 179, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group .pickedClass {
   border-left: solid #81ca00 8px;
 }
 
-/* line 171, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 181, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group .pickedClass p {
   margin-top: 2px;
 }
 
-/* line 174, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 184, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group .pickedClass .someHidden {
-  border: solid #cccccc 1px;
   border-left: solid #f72c71 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 12px 0px #9c9c9c;
+  -moz-box-shadow: 2px 2px 12px 0px #9c9c9c;
+  box-shadow: 2px 2px 12px 0px #9c9c9c;
   display: none;
-  width: auto;
+  width: 100%;
   padding: 10px;
   background-color: white;
   color: #747474;
   z-index: 1;
-  position: relative;
-  top: -100px;
-  left: 10%;
+  position: absolute;
+  top: -65px;
+  left: 5%;
 }
 
-/* line 187, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 197, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group .pickedClass .someHidden p {
   color: #747474;
 }
 
-/* line 191, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 201, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group .pickedClass .someHidden::after {
   content: '';
   position: absolute;
@@ -8484,7 +8496,7 @@ body .row .list-group .pickedClass .someHidden::after {
   clear: both;
 }
 
-/* line 203, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 213, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group .pickedClass .badge {
   background-color: #f72c71;
   border: solid #852745 1px;
@@ -8492,12 +8504,12 @@ body .row .list-group .pickedClass .badge {
   float: right;
 }
 
-/* line 211, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 221, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group .addBlue {
   padding: 0;
 }
 
-/* line 213, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 223, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group .addBlue .blueAddBtn {
   margin-right: 10px;
   background-color: #4aaedf;
@@ -8512,12 +8524,12 @@ body .row .list-group .addBlue .blueAddBtn {
   text-align: center;
 }
 
-/* line 227, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 237, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group .something {
   padding: 10px;
 }
 
-/* line 229, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
+/* line 239, /Users/angelinalapteva/Desktop/job/xello_AngelinaLapteva/sass/style.scss */
 body .row .list-group .something .addSubject {
   color: #4aaedf;
 }
